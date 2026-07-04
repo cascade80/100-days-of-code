@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    background-color: black;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.movie-poster{
+    height: 50%;
+    width: 70%;
+    background-color: red;
+    border-radius: 25px;
+}
+.movie-details{
+    height: 30%;
+    width: 70%;
+    background-color: red;
+}
+#pick-random{
+    height: 5%;
+    width: 50%;
+    background-color: white;
+    border: 0px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 700;
+}
